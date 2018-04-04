@@ -7,7 +7,7 @@
 //BTC: 13QHePrFtKPY2axwRLVjEM6AjbbRvDSmP6
 //ETH: 0x61a11050DC156CBA3ec49B81FC4F368FBd112059
 
-$con = mysqli_connect("<DATABASE_IP>", "<DB USER>", "<PASSWORD>", "PT_DATA");
+$con = mysqli_connect("<DATABASE_IP>", "shawn", "<PASSWORD>", "PT_DATA");
 
 if (!$con) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
